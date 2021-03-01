@@ -1,0 +1,18 @@
+<meta>
+<info author="Nicolas ecm" name="Garaje" version="2.0" type="script" />
+	<script src="Client/client.lua" type="client"/>
+	<script src="Client/clientGaraje.lua" type="client"/>
+	<script src="Client/TextosMark.lua" type="client"/>
+	<script src="Server/server.lua" type="server"/>
+	<script src="Server/serverBase.lua" type="server"/>
+	<script src="Server/serverGaraje.lua" type="server"/>
+	<file src="Img/pcompra/c_azul.png"/>
+	<file src="Img/pcompra/c_gris.png"/>
+	<file src="Img/pcompra/c_aguam.png"/>
+	<file src="Img/pcompra/c_negro.png"/>
+	<file src="Img/pcompra/c_rojo.png"/>
+	<file src="Img/pcompra/c_verde.png"/>
+	<file src="Img/pcompra/c_blanco.png"/>
+	<file src="Img/pcompra/c_amarillo.png"/>
+	<map src="Mapas/Garaje-Basico.map" dimension="-1"></map>
+</meta>

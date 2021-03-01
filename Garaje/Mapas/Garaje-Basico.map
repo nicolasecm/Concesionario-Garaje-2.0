@@ -1,0 +1,9 @@
+<map edf:definitions="editor_main">
+    <object id="object (genint3_smashtv) (1)" breakable="true" interior="0" alpha="255" dimension="-1" model="14795" scale="1" doublesided="false" collisions="true" posX="904.09998" posY="-1188" posZ="-51.6" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (vegasNbball1) (1)" breakable="true" interior="0" alpha="255" dimension="-1" model="6959" scale="1" doublesided="false" collisions="true" posX="914.59998" posY="-1179.2" posZ="-49.9" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (vegasNbball1) (2)" breakable="true" interior="0" alpha="255" dimension="-1" model="6959" scale="1" doublesided="false" collisions="true" posX="873.25" posY="-1179.2" posZ="-49.9" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (vegasNbball1) (3)" breakable="true" interior="0" alpha="255" dimension="-1" model="6959" scale="1" doublesided="false" collisions="true" posX="914.59998" posY="-1219.2" posZ="-49.9" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (vegasNbball1) (4)" breakable="true" interior="0" alpha="255" dimension="-1" model="6959" scale="1" doublesided="false" collisions="true" posX="873.26013" posY="-1219.2" posZ="-49.9" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (vegasNbball1) (5)" breakable="true" interior="0" alpha="255" dimension="-1" model="6959" scale="1" doublesided="false" collisions="true" posX="918.5" posY="-1159.6" posZ="-56.3" rotX="90" rotY="0" rotZ="0"></object>
+    <object id="object (vegasNbball1) (6)" breakable="true" interior="0" alpha="255" dimension="-1" model="6959" scale="1" doublesided="false" collisions="true" posX="915.29999" posY="-1216.5" posZ="-56.3" rotX="90" rotY="0" rotZ="0"></object>
+</map>
