@@ -273,17 +273,17 @@ function salirReg2()
 end
 
 function entrarMarcadorVeh(hitElement)
-triggerServerEvent ( "ComprobarUsuarioVeh", getLocalPlayer(),getLocalPlayer())
+triggerServerEvent ( "ComprobarUsuarioVeh", hitElement,hitElement)
 	setTimer ( function()
 		ComprobarUsuario = getElementData(hitElement,"valUsuVehiculp")
-		if(isPedInVehicle (getLocalPlayer()))then
+		if(isPedInVehicle (hitElement))then
 			outputChatBox("[Consecionario]#ffffffEstas en un vehiculo no puedes entrar", 227, 13, 13,true)	
 		else
-		if(ComprobarUsuario == 1)then
-			panelRegitroUsuario()
-		else
-			panelComprarVehiculo()
-		end
+			if(ComprobarUsuario == 1)then
+				panelRegitroUsuario()
+			else
+				panelComprarVehiculo()
+			end
 		end
 	end, 500, 1 )
 end

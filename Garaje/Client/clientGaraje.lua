@@ -248,12 +248,3 @@ local devolMark = createMarker (Pmx, Pmy, Pmz, "cylinder",1, 227, 13, 13, 255 )
 setElementDimension(devolMark,dimJugObj)
 return devolMark
 end
-
-function replaceModel() 
-  txd = engineLoadTXD("supergt.txd", 506 )
-  engineImportTXD(txd, 506)
-  dff = engineLoadDFF("supergt.dff", 506 )
-  engineReplaceModel(dff, 506)
-end
-addEventHandler ( "onClientResourceStart", getResourceRootElement(getThisResource()), replaceModel)
-
